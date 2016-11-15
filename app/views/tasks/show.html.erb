@@ -1,0 +1,4 @@
+<p><%= @task.name %> - Done : <%= @task.done %>
+<p><%= link_to "All tasks list", tasks_path %></p>
+<p><%= link_to "Edit", edit_task_path(@task) %></p>
+<p><%= link_to "Delete task", task_path(@task), method: :delete %></p>
